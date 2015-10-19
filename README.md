@@ -24,7 +24,7 @@ And then run the migrations:
 
 And finally:
 
-``require 'yarr'` in your `config/application.rb`
+`require 'yarr'` in your `config/application.rb`
 
 ## Usage
 
