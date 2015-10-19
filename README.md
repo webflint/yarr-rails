@@ -29,11 +29,11 @@ And finally:
 ## Usage
 
 Yarr sets up Rails to use a I18 Active Record backend.  Content is saved and delivered
-through Rai's I18n class.   To enable Yarr's content editor, Yarr some content in your views:
+through Rail's I18n class.   To enable Yarr's content editor, Yarr some content in your views:
 
 Ensure `<%= csrf_meta_tags %>` is in the head of your html document.
 
-Replace: `<%= t :'.welcome_html' %> with Yarr: `<%= yarr :'.welcome_html' %>`
+Replace: `<%= t :'.welcome_html' %>` with Yarr: `<%= yarr :'.welcome_html' %>`
 
 ## Contributing
 
